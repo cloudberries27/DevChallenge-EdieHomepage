@@ -1,0 +1,338 @@
+html, body{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+header{
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul a{
+    margin: 10px;
+    color:black;
+    text-decoration: none;
+}
+#top{
+    margin: 2em 0;
+}
+
+#top .small-container{
+    max-width: 450px;
+    margin-left: 12vw;
+}
+#top .smaller-container{
+    max-width: 300px;
+    margin-left: 12vw;
+}
+#top .blue{
+    color: #2d9cdb;
+    margin: 0;
+}
+#top h1{
+    font-size: 2.5em;
+}
+#top img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+#top form label, .footer-container form label{
+    font-size: 12px;
+    color:#898989;
+}
+#top form .input, .footer-container form .input{
+    background: #f2f2f2;
+    padding: 5px 2px;
+    border-radius: 10px;
+    width: fit-content;
+}
+#top form input, .footer-container form input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+}
+#top form button, .footer-container form button{
+    padding: 15px;
+    margin: 0 5px;
+    background-color: #2d9cdb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#services, #works, #team, #review{
+    max-width: 1000px;
+    margin: 6em auto;
+}
+#services h2, #works h2, #team h2, #review h2{
+    font-size: 2em;
+}
+#services .flex{
+    display: flex;
+    justify-content: space-between;
+    gap:1em;
+}
+#services .flex .card{
+    border-radius: 30px;
+    padding: 2em;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;
+}
+#services .flex .card:hover{
+    box-shadow: 1px 1px 50px #edebeb;
+}
+#services .flex .card span{
+    padding: 10px;
+    margin: 1em 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 36px;
+}
+#services .flex .card span.pencil{
+    background: #2d9cdb;
+}
+#services .flex .card span.code{
+    background: #27ae60;
+}
+#services .flex .card span.list{
+    background: #eb5757;
+}
+#services .flex .card button{
+    padding: 10px;
+    background-color: #2d9cdb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#works .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#works .grid .project{
+    padding: 10px;
+}
+#works .grid .project .label{
+    font-size: 12px;
+    color: #898989;
+}
+#works .grid .project .title{
+    font-weight: bold;
+}
+#works .grid .project img{
+    border-radius: 30px;
+    height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+#works .grid .project:nth-child(odd) {
+    margin-top: 100px;
+}
+#works a{
+    text-decoration: none;
+    color: #2d9cdb;
+    font-weight: bold;
+    float: right;
+}
+#works a span{
+    vertical-align: middle;
+}
+#team{
+    display: flex;
+    justify-content: space-between;
+}
+#team .text{
+    max-width: 247px;
+    margin: auto 0;
+}
+#team .subtitle{
+    color:#eb5757;
+    font-weight:bold;
+}
+#team .grid{
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    grid-gap:1em;
+    width: 60%;
+}
+#team .grid img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#team .grid .img1{
+    grid-area: 1/9/8/14;
+}
+#team .grid .img2{
+    grid-area: 8/9/15/15;
+}
+#team .grid .img3{
+    grid-area: 3/1/12/9;
+}
+#review h2{
+    max-width: 800px;
+}
+#review .author{
+    display: flex;
+    margin: 3em 0;
+}
+#review .author img{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+#review .author .text{
+    margin: 0 2em;
+}
+#review .author .text .company{
+    font-size: 12px;
+    color:#898989;
+}
+footer{
+    background-color: #100e1d;
+    color:white;
+}
+footer .footer-container{
+    max-width: 1000px;
+    padding: 3em 2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer ul a{
+    text-decoration: none;
+    color:white;
+}
+footer ul a li{
+    margin: 15px 0;
+}
+.footer-container .logo{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+footer .center{
+    text-align: center;
+}
+footer .center p{
+    margin: 0;
+    padding: 1em 0;
+}
+footer .center p a{
+    color: white;
+}
+.material-icons.md-48 { font-size: 48px; }
+.burger{
+    display: none;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    right: 0;
+    position: fixed;
+    background-color: black;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    text-align: center;
+    display: flex;
+} 
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    color:white;
+}
+.overlay ul{
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  line-height: 70px;
+}
+.overlay ul a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    #services .flex .card {
+        padding: 1em;
+    }
+}
+@media screen and (max-width: 650px){
+    header nav{
+        display: none;
+    }
+    header .burger{
+        display: block;
+    }
+    #top img{
+        border-radius: 10px;
+    }
+    #top .small-container{
+        margin-left: unset;
+    }
+    #top .smaller-container{
+        margin-left: unset;
+    }
+    #services .flex{
+        flex-direction: column;
+    }
+    #services .flex .card{
+        max-width: fit-content;
+    }
+    #works .grid{
+        grid-template-columns: 1fr;
+    }
+    #works .grid .project:nth-child(odd){
+        margin: unset;
+    }
+    #team{
+        flex-direction: column;
+    }
+    #team .text{
+        max-width: fit-content;
+    }
+    #team .grid{
+        width: 100%;
+    }
+    footer .footer-container{
+        flex-direction: column;
+    }
+    footer .footer-container .socials{
+        margin-bottom: 2em;
+    }
+}
+@media screen and (max-width: 400px){
+    .container{
+        padding: 0 1em;
+    }
+    footer .footer-container{
+        padding: 3em 1em;
+    }
+}

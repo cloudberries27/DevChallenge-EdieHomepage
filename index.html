@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <title>Edie | Homepage</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="mobileMenu" class="overlay">
+      <span onclick="closeNav()" class="material-icons md-48 close">close</span>
+      <ul>
+        <a href="#header" onclick="closeNav()"><li>Home</li></a>
+        <a href="#services" onclick="closeNav()"><li>Services</li></a>
+        <a href="#works" onclick="closeNav()"><li>Our Work</li></a>
+        <a href="#review" onclick="closeNav()"><li>Clients</li></a>
+        <a href="#footer" onclick="closeNav()"><li>Contact</li></a>
+      </ul>
+    </div>
+    <div class="container">
+      <header id="header">
+        <p class="logo">Edie</p>
+        <span onclick="openNav()" class="material-icons md-48 burger">menu</span>
+        <nav>
+          <ul>
+            <a href="#header"><li>Home</li></a>
+            <a href="#services"><li>Services</li></a>
+            <a href="#works"><li>Our Work</li></a>
+            <a href="#review"><li>Clients</li></a>
+            <a href="#footer"><li>Contact</li></a>
+          </ul>
+        </nav>
+      </header>
+      <section id="top">
+        <div class="small-container">
+          <p class="blue">Unhappy with your website?</p>
+          <h1>We create beautiful and fast web services</h1>
+        </div>
+        <img src="heroImage.jpg"/>
+        <div class="smaller-container">
+          <h1>Story, emotion and purpose</h1>
+          <p>We help transform your ideas into real word applications that will outperform your toughest competition and 
+            help you achieve your strategic goals in a short period of time.</p>
+          <form>
+            <label>Want us to contact you?</label>
+            <div class="input">
+              <input type="text" placeholder="Email"/>
+              <button type="submit">Join</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section id="services">
+        <h2>We offer high <br/> demand services</h2>
+        <div class="flex">
+          <div class="card">
+            <span class="material-icons pencil">edit</span>
+            <h3>UI/UX Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button>Get Started</button>
+          </div>
+          <div class="card">
+            <span class="material-icons code">code</span>
+            <h3>Front End</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button>Get Started</button>
+          </div>
+          <div class="card">
+            <span class="material-icons list">list</span>
+            <h3>Back End</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <h2>Good design means <br/> good business</h2>
+        <div class="grid">
+          <div class="project">
+            <img src="smarthome.jpg">
+            <p class="label">Full stack application</p>
+            <p class="title">Smart Home Dashboard</p>
+          </div>
+          <div class="project">
+            <img src="onboard.png">
+            <p class="label">UX/UI design</p>
+            <p class="title">Onboard Application</p>
+          </div>
+          <div class="project">
+            <img src="booking.png">
+            <p class="label">Mobile application</p>
+            <p class="title">Booking System</p>
+          </div>
+          <div class="project">
+            <img src="juice-product.png">
+            <p class="label">Front end application</p>
+            <p class="title">Juice Product Homepage</p>
+          </div>
+        </div>
+        <a href="#">see more <span class="material-icons">trending_flat</span></a>
+      </section>
+      <section id="team">
+        <div class="text">
+          <p class="subtitle">Meet the team</p>
+          <h2>We are a chilled and laid back team</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="grid">
+          <img class="img1" src="person1.png"/>
+          <img class="img2" src="person2.png"/>
+          <img class="img3" src="person3.png"/>
+        </div>
+      </section>
+      <section id="review">
+        <h2>"Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team."</h2>
+        <div class="author">
+          <img src="person4.png"/>
+          <div class="text">
+            <p>Carlos Tran</p>
+            <p class="company"> The Decorate Gatsby</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer">
+      <div class="footer-container">
+        <ul>
+          <a href="#header"><li>Home</li></a>
+          <a href="#services"><li>Services</li></a>
+          <a href="#works"><li>Our Work</li></a>
+          <a href="#review"><li>Clients</li></a>
+          <a href="#footer"><li>Contact</li></a>
+        </ul>
+        <div class="socials">
+          <p class="logo">Edie</p>
+          <img src="instagram.svg"/>
+          <img src="linkedin.svg"/>
+          <img src="twitter.svg"/>
+        </div>
+        <form>
+          <label>Want us to contact you?</label>
+          <div class="input">
+            <input type="text" placeholder="Email"/>
+            <button type="submit">Join</button>
+          </div>
+        </form>
+      </div>
+      <div class="center">
+        <p>created by <a href="https://devchallenges.io/portfolio/cloudberries27" target="_blank" rel="noreferrer">@cloudberries27</a> - devchallenges.io </p>
+      </div>
+    </footer>
+    <script>
+      function openNav() {
+        document.getElementById(
+          "mobileMenu").style.width = "100%";
+      }
+  
+      function closeNav() {
+        document.getElementById(
+          "mobileMenu").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>
