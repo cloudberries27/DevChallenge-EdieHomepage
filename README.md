@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://cloudberries27.github.io/DevChallenge-EdieHomepage/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/cloudberries27/DevChallenge-EdieHomepage">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](devchallenge.gif)
+![screenshot](devchallenge001.gif)
 
 - Demo is above^^
 - This took like 8 hours to do. Lots of styling and resizing. But its basically all of the previous projects into one.
